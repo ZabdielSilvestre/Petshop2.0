@@ -18,7 +18,7 @@
     position: relative;
     color: #f3f3f3;
     top: -.5vh;
-    font-size: 30px;
+    font-size: 10px;
     list-style: none; /*Borrar los puntos de los listados*/
 }
 .header-contenedor-bot{
@@ -27,16 +27,11 @@
     
     
 }
-.gatito{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: 15px;
-}
-
 .patita{
-    width: 50px;
-    height: 50px;
+    position: relative;
+    left: -2.5vw;
+    top: 1.5vh;
+    height: 50%;
 }
 .primer-logo{
     color:#3c2313;
@@ -44,7 +39,7 @@
 }
 .logo-base{
     color: #ffffff;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 700px;
     line-height: 23.44px;
     position: relative;
@@ -55,19 +50,20 @@
 }
 .menu23{
     position: relative;
-    top:-8px;
-    left:10px;
+    top:-2vh;
+    left:-3vw;
+    margin-left: 3vw;
 }
 
 .nav-links{
     display: flex;
     position: relative;
     flex-direction: row-reverse;
-    top:-55px;
+    top:-35px;
     list-style: none;
   color: #ffffff;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 25px;
  
 
 
@@ -77,28 +73,28 @@ li{
     padding-right: 1vw ;
 }
 .frontcatanddog{
-font-size: 50px;    
+font-size: 20px;    
 padding-top: 4vh;
 padding-bottom: 1vh;
 margin-left: 1vw;
 
 }
 h1{
-    font-size: 50px;
+    font-size: 23px;
 text-align: center;
 display: flex;
 align-items: center;
 margin-top: 20vh;
-margin-left: 78vw;
+margin-left: 79vw;
 background-color: #ffffff;
-padding: 12px;
-width: 16.5%;
+padding: 10px;
+width: 15.5%;
 }
 .seccion-imagen-principal{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1520px;
+    height: 40vw;
     background-image: url('bowl-and-pet-daities-on-green-background 1 (1).png');
     background-size:contain;
     background-repeat: no-repeat;
@@ -118,30 +114,129 @@ width: 16.5%;
     background-color: #F0A83E;
     text-transform: uppercase;
     color: #ffffff;
-    font-size: 30px;
-    padding: 12px;
+    font-size: 15px;
+    padding: 9px;
     margin-left: 84vw;
     margin-top: 15px;
     width: 5.5vw;
 
     
 }
+.patita{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    
+}
 ul{
     color:#3c2313;
 }
-footer{
-    background-color:#F0A83E;
-}
+
 .listado-datos{
     background-color: #3c2313;
-    margin-bottom: 2vh;
+    
 }
 .listado{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4vw;
+    list-style: none;
     color:#f3f3f3
+    
+    
 }
 .segundo-logo{
     color:#F0A83E;
 }
+
+.productos-destacados{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+.menu-cac{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+    color: darkgray;
+}
+.juguetes{
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5vh;
+   
+}
+.patitaimg{
+    
+    width: 7vw;
+}
+.churrasquito{
+    margin-right: 5vw;
+}
+.huesito{
+    margin-left: 5vw;
+}
+.juguete1{
+    position: relative;
+    bottom: 8vh;
+    text-align: center;
+    font-size: 20px;
+}
+.comedero1{
+    position: relative;
+    bottom: 8vh;
+    text-align: center;
+    font-size: 20px;
+}
+.juguete2{
+    position: relative;
+    bottom: 8vh;
+    text-align: center;
+    font-size: 20px;
+}
+.juguetes3{
+    
+    height: 100%;
+    width: 20vw;
+}
+#precio{
+    position: relative;
+    bottom: 7vh;
+    color: #F0A83E;
+    text-align: center;
+}
+.info{
+    position: relative;
+    bottom: 4vh;
+    left: 2vw;
+}
+.info2{
+    position: relative;
+    bottom: 2vh;
+    right: 1.5vw;
+    font-size: 10px;
+    color: darkgray;
+}
+.info3{
+    position: relative;
+    bottom: 2vh;
+    right: 5vw;
+    font-size: 10px;
+    color: darkgray;
+}
+.LOGOFINAL{
+display: flex;
+justify-content: flex-end;
+position: relative;
+bottom: 10vh;
+}
 .h2-footer{
     text-align: center;
+    color: #f3f3f3;
+}
+footer{
+    background-color:black;
 }
