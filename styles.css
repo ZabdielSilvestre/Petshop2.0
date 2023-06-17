@@ -170,14 +170,16 @@ ul{
    
 }
 .patitaimg{
-    
+    position: relative;
+    bottom:3vh;
+    left: 3vw;
     width: 7vw;
 }
 .churrasquito{
-    margin-right: 5vw;
+    margin-right: 1vw;
 }
 .huesito{
-    margin-left: 5vw;
+    margin-left: 1vw;
 }
 .juguete1{
     position: relative;
